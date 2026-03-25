@@ -22,7 +22,7 @@ A simple and effective **Machine Learning project** that classifies messages as 
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 ```
 project/
 │── main.py
@@ -44,21 +44,28 @@ pip install pandas scikit-learn
 
 ```
 
-## Dataset
+## 📊 Dataset
 A manually created dataset is used with two columns:
 - v1 → label (spam/ham)
 - v2 → message
 
 ## ▶️ How to Run
+1. Place spam.csv in the same folder
+2. Run the Python file:
+```
+python main.py
+```
+3. Enter messages to test
 
-python code.py
-
-Enter your message: Win a free prize now
-
+## Example
+Input:
+```
+Win a free prize now
+```
 Output:
+```
 Spam
-
----
+```
 
 ## 🧠 How It Works
 1. 📥 Loads dataset (`spam.csv`)
