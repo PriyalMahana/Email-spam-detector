@@ -1,13 +1,26 @@
-# Spam Email Detector 
+# 📧 Email Spam Detector
 
-## Introduction
-This project is a machine learning-based spam detection system. It classifies messages into spam or not spam using the Naive Bayes algorithm.
+A simple and effective **Machine Learning project** that classifies messages as **Spam or Not Spam** using Natural Language Processing (NLP).
 
-## Features
-- Text classification using TF-IDF
-- Naive Bayes model
-- Custom user input prediction
-- Simple and efficient
+---
+
+## 🚀 Features
+- 📊 Text classification using **TF-IDF**
+- 🤖 Machine Learning model (**Naive Bayes**)
+- 📨 Detects spam messages instantly
+- 🧠 Learns patterns from dataset
+- 💬 Custom user input prediction
+
+---
+
+## 🛠️ Tech Stack
+- 🐍 Python  
+- 📚 Pandas  
+- 🤖 Scikit-learn  
+- 🔤 TF-IDF Vectorizer  
+- 📈 Multinomial Naive Bayes  
+
+---
 
 ## Project Structure
 ```
@@ -15,7 +28,10 @@ project/
 │── main.py
 │── spam.csv
 │── README.md
+|── Report.docx
 ```
+
+---
 
 ## Requirements
 - Python 3.x
@@ -25,6 +41,7 @@ project/
 Install using:
 ```
 pip install pandas scikit-learn
+
 ```
 
 ## Dataset
@@ -32,43 +49,65 @@ A manually created dataset is used with two columns:
 - v1 → label (spam/ham)
 - v2 → message
 
-## How It Works
-1. Load dataset
-2. Convert labels to numbers
-3. Convert text into TF-IDF features
-4. Train Naive Bayes model
-5. Evaluate accuracy
-6. Predict user input
+## ▶️ How to Run
 
-## How to Run
-1. Place spam.csv in the same folder
-2. Run the Python file:
-```
-python main.py
-```
-3. Enter messages to test
+python code.py
 
-## Example
-Input:
-```
-Win a free prize now
-```
+Enter your message: Win a free prize now
+
 Output:
-```
 Spam
-```
 
-## Advantages
-- Fast
-- Simple
-- Beginner-friendly
+---
 
-## Limitations
-- Needs more data for better accuracy
-- Not perfect for complex messages
+## 🧠 How It Works
+1. 📥 Loads dataset (`spam.csv`)
+2. 🔄 Converts labels (spam = 1, ham = 0)
+3. 🔤 Transforms text using **TF-IDF**
+4. ✂️ Splits data into training & testing
+5. 🤖 Trains **Naive Bayes model**
+6. 📊 Predicts spam or not spam
 
-## Future Improvements
-- GUI application
-- Web deployment
-- Deep learning models
+---
 
+## 📊 Example
+| Message | Prediction |
+|--------|-----------|
+| Win money now | Spam |
+| Let's meet tomorrow | Not Spam |
+
+---
+
+## ⚡ Advantages
+- ✅ Simple and fast  
+- ✅ Beginner-friendly  
+- ✅ Good accuracy  
+- ✅ Easy to extend  
+
+---
+
+## ⚠️ Limitations
+- ❌ Small dataset reduces accuracy  
+- ❌ Assumes words are independent  
+- ❌ May fail on complex sentences  
+
+---
+
+## 🔮 Future Improvements
+- 🎨 Add GUI (Tkinter)  
+- 🌐 Convert to web app (Flask)  
+- 📈 Use larger dataset  
+- 🤖 Try deep learning models  
+
+---
+
+## 👨‍💻 Author
+**Priyal Mahana**
+
+---
+
+## ⭐ Show Your Support
+If you like this project:
+- ⭐ Star the repo  
+- 🍴 Fork it  
+- 📢 Share it  
